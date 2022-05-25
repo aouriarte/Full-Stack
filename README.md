@@ -1,2 +1,15 @@
-# Full-Stack
-Programming Languages :rocket: :globe_with_meridians:
+# Full-Stack-Developer
+
+## Programming Languages
+
+Teoría y aplicación de cada uno de los lenguajes en programación. (Apuntes)
+
+> "Estamos no para solucionar problemas, sino para **_crear soluciones_**". -Dalto
+
+Consejos:
+
+- **Lógica:** Aprender o saber la forma "_manual_" para resolver o crear solución a una tarea que se nos pide, paso por paso.
+
+- **Pseudocódigo:** Aprender a describir la función del código o el algoritmo. Como el paso a paso, el algoritmo. Además ayuda a que sea más fácil escribir otro lenguajes de programación.
+
+- **Aplicación:** Más vale la aplicación que saber toda la teoría, porque es bastante. Realizar proyectos.
