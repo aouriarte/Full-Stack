@@ -78,37 +78,38 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 
 ```html
 <form>
-  <input type=" " name=" " required="introducir información, es obligatoria">
-  <!-- 'input' es introducir --> 
-  <!-- type="puede ser cualquier dato" (password,email,number,submit,etc) --> 
-  <!-- 'name' para identificar al input --> 
+  <input type=" " name=" " required="introducir información, es obligatoria" />
+  <!-- 'input' es introducir -->
+  <!-- type="puede ser cualquier dato" (password,email,number,submit,etc) -->
+  <!-- 'name' para identificar al input -->
 </form>
 ```
 
 ## Metadatos
 
 ```html
-<!-- Cuando alguien busqué alguna palabra en el navegador, le aparecerá nuestra página --> 
-<meta name="keywords" content="palabras claves de nuestra página">
-  
-<meta name="description" content="descripción de tu página">
+<!-- Cuando alguien busqué alguna palabra en el navegador, le aparecerá nuestra página -->
+<meta name="keywords" content="palabras claves de nuestra página" />
 
-<meta name="author" content="Alexis Uriarte">
+<meta name="description" content="descripción de tu página" />
 
-<meta name="copyright" content="si es que tu página es copiada(derechos)">
+<meta name="author" content="Alexis Uriarte" />
 
-<!-- Codificación para cambiar carácteres --> 
-<head> 
-  <title>Título</title> 
-  <meta charset="utf-8"> <!-- Permite tíldes y más --> 
+<meta name="copyright" content="si es que tu página es copiada(derechos)" />
+
+<!-- Codificación para cambiar carácteres -->
+<head>
+  <title>Título</title>
+  <meta charset="utf-8" />
+  <!-- Permite tíldes y más -->
 </head>
 ```
 
-## Icono 
+## Icono
 
 Poner icono en la pestaña de nuestra página:
 
 ```html
-<link rel="icono" formato href="nombre del archivo.ico"> 
-<!-- Con 'ico' cambiamos los 'px' de la imagen --> 
+<link rel="icono" formato href="nombre del archivo.ico" />
+<!-- Con 'ico' cambiamos los 'px' de la imagen -->
 ```
