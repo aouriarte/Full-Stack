@@ -100,7 +100,7 @@ Los veremos más adelante por separado, pero son los siguientes:
 
 ---
 
-## Avanzado:
+## JavaScript Avanzado:
 
 ### Coerción de Datos
 
@@ -124,8 +124,61 @@ Number(undefined); // devuelve `NaN`. No era obvio, pero tiene sentido.
 Number(null); // devuelve el nuḿero 0. WTFFFF!!! porqueeEE no debería ser `NaN`??
 ```
 
+- Tabla de igualdades:
+
+```js
+6 / "3"                                     //2
+"2" * "3"                                   //6
+4 + 5 + "px"                                //9px
+"$" + 4 + 5                                 //$45
+"4" - 2                                     //2
+"4px" - 2                                   //NaN
+7 / 0                                       //Infinity
+{}[0]                                       //undefined
+parseInt("09")                              //9
+5 && 2                                      //2
+2 && 5                                      //5
+5 || 0                                      //5
+0 || 5                                      //5
+[3]+[3]-[10]                                //23
+3>2>1                                       //false
+[] == ![]                                   //true
+true                                        //1
+false                                       //0
+```
+
+---
+
 ### Valor y Referencia
 
-Los valores primitivos son los que se pasan por **valor** `=` .
+- **Valor:** Los _datos primitivos_ son los que se pasan por valor `=` .
 
-Los NO primitivos se pasan por **referencia**, como que se copia.
+Por ejemplo: En este caso estamos pasando variables por valor. Al comienzo **a** y **b** son distintas. Luego a se hace **“fotocopia”** de **b** y adquiere su valor. Si luego cambiamos el valor de **b**, el valor de **a** se seguirá manteniendo igual, ya que mantiene independencia:
+
+```js
+var a = 3;
+var b = 5;
+a = b;
+//  5 = 5
+
+b = 324;
+a = 5;
+```
+
+- **Referencia:**
+  Los NO primitivos (objetos, arreglos o funciones en variables) se pasan por **referencia**, como que se copia.
+
+Por ejemplo: En este caso primero creamos un objeto, y luego definimos un nuevo objeto que es igual al primero. Cuando al primero le agregamos la propiedad Edad, esta se agregará automáticamente a la segunda:
+
+```js
+var obj = {Nombre: "Alejo", Apellido: "Bengo"};
+var newObj = obj;
+
+obj.Edad = 21;
+//obj = {Nombre: "Alejo", Apellido: "Bengo", Edad: 21}
+
+<newObj>
+{Nombre: "Alejo", Apellido: "Bengo", Edad: 21};
+```
+
+> En ese caso hay un **“reflejo”** de los cambios que hagamos en cualquiera de las variables.

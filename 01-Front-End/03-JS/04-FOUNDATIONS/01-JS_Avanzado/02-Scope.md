@@ -1,8 +1,8 @@
-## Scope
+# Scope
 
-Hablamos del _contexto de ejecución_ o el _entorno_. Es el alcance que tiene una variable y desde donde se le puede llamar.
+Es el alcance que tiene una variable y desde donde se le puede llamar. Donde va a vivir.
 
-### Tipos de Scope
+## Tipos de Scope
 
 - **Scope Global:** Las variables que creamos fuera de una función o bloque de código tienen un _alcance global_. Podemos acceder a ellas desde cualquier lugar de nuestro programa. Sin importar si las declaramos con `var` , `let` o `const` .
 
@@ -29,4 +29,4 @@ function comer() {
 comer(); // antes de comer se lava la fruta
 ```
 
-> Además en el caso tengamos las variables con el mismo nombre en ambos contectos de ejecución, este busca en su primer contexto y obvia el que está fuera en _outer context_. A esto se le llama _variable shadowing_.
+> Además en el caso tengamos las variables con el mismo nombre en ambos contextos de ejecución, este busca en su primer contexto y obvia el que está fuera en _outer context_. A esto se le llama _variable shadowing_.

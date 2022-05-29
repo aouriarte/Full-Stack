@@ -211,14 +211,14 @@ if (!(1 === 1)) {
 
 ## Precedencia y Asociatividad de Operadores
 
-### **Precedencia**
+- **Precedencia:**
 
-La precedencia termina el _orden en el cual se realiza una operación_, el operador de mayor precedencia se ejecuta primero. Algo parecido a las matemáticas.
+La precedencia determina el _orden en el cual se realiza una operación_, el operador de mayor precedencia se ejecuta primero. Algo parecido a las matemáticas.
 
 ```js
 3 + 4 * 5; //retorna 23
 ```
 
-### **Asociatividad**
+- **Asociatividad:**
 
 Cuando los operadores son de igual precedencia se desarrolla de _derecha a izquierda o viceversa_. Podemos ver la documentación completa o la tabla de asociatividad [Aquí](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Operator_Precedence).

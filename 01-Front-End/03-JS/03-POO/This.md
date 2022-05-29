@@ -5,6 +5,12 @@ Es muy útil para llamar al objeto en donde se está escribiendo.
 
 > Es muy útil a la hora de crear **constructores**.
 
+## Global Context
+
+Este es el caso cuando ejecutamos código en el contexto global (afuera de cualquier función). En este caso `this` hace referencia al objeto `global` , en el caso del browser hace referencia a `window` .
+
+---
+
 ## **This** in objects
 
 Veamos algunos métodos:

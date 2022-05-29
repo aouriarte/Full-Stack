@@ -1,17 +1,18 @@
 ## Closures
 
-Las Clausuras se conocen como funciones _anidadas_. Nos guarda información en la memoria para usarla luego, información asociada.
+Las Clausuras se conocen como funciones _anidadas_ (es una función que retorna otra función). Nos guarda información en la memoria para usarla luego, información asociada.
+
+```js
+function producto(a) {
+  return function (b) {
+    return a * b;
+  };
+}
+```
 
 Ejemplo1:
 
 ```js
-function producto(a) {
-  return function(b) {
-
-    return a * b;
-  }
-}
-
 // tabla del 2
 var producto2 = producto(2); // se lleva a la función 'b'
       // function(b) {

@@ -43,15 +43,3 @@ let alex = new Usuario('Alex', '20');
 console.log(juan.saludo()); // Me llamo Juan y tengo 25.
 console.log(alex.saludo()); // Me llamo Alex y tengo 20.
 ```
-
----
-
-## Set 
-
-Es parecido a los arreglos, solo que crea un nuevo _objeto_ sin que se repita sus valores. Es un constructor. Es para cualquier tipo de dato.
-
-```js
-var arreglo = [1,2,3,4,,1,3,1,7,5]
-var set1 = new Set(arreglo)
-console.log(set1); // Set {1,2,3,4,7,5} 
-```

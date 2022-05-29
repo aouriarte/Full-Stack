@@ -1,4 +1,4 @@
-## Hoisting
+# Hoisting
 
 En Javascript permite llamar a una función o declaración sin haberla definido o declarado antes. Las variables y declaraciones son _elevadas_.
 
@@ -12,4 +12,4 @@ function bar() {
 }
 ```
 
-> En el caso de la función, si declara su instrucción, pero el de la variable solo guarda en memoria un espacio para esa variable, más no su valor.
+Las variables y las funciones declaradas como variables no están definidas por el _hoisting_ .Solo las funciones declaradas como statement serán reconocidas como una función completa (su instrucción se ejecuta).
