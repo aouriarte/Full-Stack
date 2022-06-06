@@ -1,7 +1,7 @@
 # Stacks
 
-Los Stacks no son estructuras nativas de JavaScript. Es decir, no existe una sintaxis específica para declararlos. Es por esto que manipulamos `arrays` para poder crear un stack.
-Se manejan en LIFO (Last In, First Out). Lo último en llegar lo primero en salir.
+Las _pilas_ no son estructuras nativas de JavaScript. Es decir, no existe una sintaxis específica para declararlos. Es por esto que manipulamos `arrays` para poder crear un stack.
+Se manejan en _LIFO_ (Last In, First Out). Lo último en llegar lo primero en salir.
 
 ```js
 var stack = [];
@@ -23,17 +23,17 @@ class Stack {
     this.stack = [];
   }
 
-  add(element) {
+  add(element) { // agregar elemento al final
     this.stack.push(element);
     return this.stack;
   }
 
-  remove() {
+  remove() { // elimina último elemento
     this.stack.pop();
   }
 
-  size() {
+  size() { // tamaño de pila
     return this.stack.length;
   }
-}
+};
 ```

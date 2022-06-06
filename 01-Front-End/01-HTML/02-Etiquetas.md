@@ -113,3 +113,8 @@ Poner icono en la pestaña de nuestra página:
 <link rel="icono" formato href="nombre del archivo.ico" />
 <!-- Con 'ico' cambiamos los 'px' de la imagen -->
 ```
+
+```html
+<main>palabras claves</main> 
+<!--Ayuda a los motores de búsqueda y otros desarrolladores a encontrar el contenido principal de tu página (SEO) -->
+```

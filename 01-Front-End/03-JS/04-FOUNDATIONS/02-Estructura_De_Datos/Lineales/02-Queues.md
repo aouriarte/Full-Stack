@@ -1,6 +1,6 @@
 # Queues
 
-Las _colas_ tampoco son nativas de JavaScript, por lo que también tendremos que simularlas con los `arrays` . Se manejan con FIFO (First In, Firt Out) el primero en llegar el primero en irse.
+Las _colas_ tampoco son nativas de JavaScript, por lo que también tendremos que simularlas con los `arrays` . Se manejan con _FIFO_ (First In, Firt Out) el primero en llegar el primero en irse.
 
 ```js
 var queue = [];
@@ -22,17 +22,17 @@ class Queue {
     this.queue = [];
   }
 
-  enqueue(element) {
+  enqueue(element) { // agregar elemento al inicio
     this.queue.push(element);
     return this.queue;
   }
 
-  dequeue() {
+  dequeue() { // eliminar primer elemento
     this.queue.shift();
   }
 
-  size() {
+  size() { // tamaño de cola
     return this.queue.length;
   }
-}
+};
 ```
