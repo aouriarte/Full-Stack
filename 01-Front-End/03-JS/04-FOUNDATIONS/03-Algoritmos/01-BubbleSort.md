@@ -1,5 +1,6 @@
 # Bubble Sort
 
+Complejidad O(n^2)
 Este algoritmo ordena los números. Es el método "burbuja".
 Este método compara valores continuos:
 
@@ -8,7 +9,7 @@ Este método compara valores continuos:
 
 /*
 i siempre se comparará con j
-si i es > que j, cambian de lugar
+si i > j, cambian de lugar
 y siguen avanzando entre los índices
 */
 
