@@ -58,3 +58,5 @@ Lo que vemos dentro de la página (body). Nivel semántico.
   </footer>
 </body>
 ```
+
+> `<div>` ... `</div>` divisiones es una de las más usadas en html.  

@@ -22,13 +22,12 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 ## Listas:
 
 ```html
-<ul>
-  Desordenadas
+<ul> Desordenadas
+  <li></li>
 </ul>
-<ol>
-  Ordenadas
+<ol> Ordenadas
+  <li>Contenido de las listas</li>
 </ol>
-<li>Contenido de las listas</li>
 ```
 
 ## Vínculos:
@@ -37,6 +36,12 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 <a href="https://www.tuEnlace.com" target="_BLANCK"> Click Aquí </a>
 <!-- href="" para insertar un enlace -->
 <!-- target="_BLANCK" nos permite abrir el enlace en otra pestaña -->
+
+<!-- También podemos hacer vínculos dentro de nuestra propia página -->
+<a href="#contactos-header">Contactos</a>
+... <!-- con el símbolo '#' para vincular -->
+<h2 id="contactos-header">Contactos</h2>
+<!-- y agregadno 'id' a donde queramos que vaya>
 ```
 
 > "https" indica que la página es segura (s).
@@ -78,11 +83,42 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 
 ```html
 <form>
-  <input type=" " name=" " required="introducir información, es obligatoria" />
+  <input type=" " name=" " placeholder="ingresa por favor" required/>
   <!-- 'input' es introducir -->
   <!-- type="puede ser cualquier dato" (password,email,number,submit,etc) -->
   <!-- 'name' para identificar al input -->
+  <!-- 'placehoder' es el texto provisional que va en el input-->
+  <!-- 'required' quiere decir obligatotio -->
 </form>
+```
+
+```html
+<form action="URL_donde_se guardan_los_datos">
+  <input>
+</form>
+<!-- Con esto podemos construir formularios web que realmente envíen datos a un servidor usando sólo HTML puro -->
+```
+
+```html
+<form>
+  <label for="masculino"> 
+    <input id="masculino" value="masculino" type="radio" name="masculino-femenino"> masculino 
+  </label>
+</form>
+<!-- botones radio -->
+<!-- Puedes usarlo para hacer preguntas en las que el usuario solo debe dar una respuesta a partir de múltiples opciones -->
+
+<label for="femenino"> 
+  <input id="femenino" value="femenino" type="radio" name="masculino-femenino"> femenino 
+</label>
+<!-- el atributo 'value' reporta el valor de los input al servidor de datos -->
+<!-- Cuando el usuario envía el formulario con la opción masculino seleccionada, los datos del formulario incluirán la línea: masculino-femenino=femenino. Esto proviene de los atributos name y value del input "femenino" -->
+```
+
+```html
+<label for="Acepto"><input id="Acepto" type="checkbox" name="personality"> Acepto</label>
+<!-- casillas de verificación -->
+<!-- para preguntas que puedan tener más de una respuesta -->
 ```
 
 ## Metadatos

@@ -33,6 +33,15 @@ var a = 3.15;
 var b = parseInt(a); //3
 ```
 
+- `toString`
+
+Convierte los elementos a una 'string':
+
+```js
+var numero = 123;
+numero.toString(); // '123'
+```
+
 ### **Numbers**
 
 Son números, puede ser positivos o negativos. Van sin conmillas.
