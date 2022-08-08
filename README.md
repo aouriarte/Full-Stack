@@ -1,8 +1,4 @@
-# Full-Stack-Developer
-
-## Programming Languages
-
-Teoría y aplicación de cada uno de los lenguajes en programación. (Apuntes)
+# Full-Stack Developer
 
 > "Estamos no para solucionar problemas, sino para **_crear soluciones_**". -Dalto
 

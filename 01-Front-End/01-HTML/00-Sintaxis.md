@@ -26,3 +26,4 @@ Algunas características importantes:
 ```html
 <button tamaño="pequeño" color="azul"></button>
 ```
+> En realidad se escribe en inglés.

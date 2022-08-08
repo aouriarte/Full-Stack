@@ -133,6 +133,10 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 
 <meta name="copyright" content="si es que tu página es copiada(derechos)" />
 
+<!-- Nos permite indicar cómo se verá un proyecto web en los dispositivos móviles -->
+<meta name="viewport" content="width-device-width,initial-scale = 1" />
+> Ver más en "Layout"/DOM/DOM-Avanzado
+
 <!-- Codificación para cambiar carácteres -->
 <head>
   <title>Título</title>
