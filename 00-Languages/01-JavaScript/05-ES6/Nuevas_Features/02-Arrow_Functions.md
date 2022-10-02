@@ -7,7 +7,7 @@ Podemos observar las dos formas de escribir una misma función. La segunda (**ar
 ```js
 function normal(x) {
   return x * x;
-};
+}
 
 var arrow = (x) => {
   return x * x;
@@ -20,7 +20,7 @@ var arrow = (x) => {
   var arrow = (x) => {
     return x * x;
   };
-  //El parámetro no tiene paréntesis.
+  // El parámetro no tiene paréntesis.
 
   var arrow = (x) => {
     return x * x;
@@ -54,9 +54,9 @@ var arrow = (x) => {
       this.friends.forEach((x) => console.log(this.name + " knows " + x));
     },
   };
-  //Bob knows Alejo
-  //Bob knows Luca
-  //Bob knows Manny
+  // Bob knows Alejo
+  // Bob knows Luca
+  // Bob knows Manny
   /*-------------------------------------------------------------*/
   var bob = {
     name: "Bob",
@@ -67,9 +67,9 @@ var arrow = (x) => {
       });
     },
   };
-  //undefined knows Alejo
-  //undefined knows Luca
-  //undefined knows Manny
+  // undefined knows Alejo
+  // undefined knows Luca
+  // undefined knows Manny
   ```
 
   Por último, en este ejemplo podemos ver que dentro del mismo objeto, aplicamos la misma función, sólo que en una con sitaxis **arrow** y otra **function**.

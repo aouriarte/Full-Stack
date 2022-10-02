@@ -19,8 +19,6 @@ if (condición1) {
 
 > Para resumir esto también podemos usar el _operador ternario_.
 
----
-
 ## Switch
 
 Cuando necesitamos evaluar muchas condiciones es mejor usar `switch`. Esta condicional evalúa una expresión y busca una que tenga el mismo valor con `case`, y así con los siguientes casos.
