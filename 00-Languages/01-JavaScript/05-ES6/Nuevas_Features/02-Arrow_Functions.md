@@ -7,7 +7,7 @@ Podemos observar las dos formas de escribir una misma función. La segunda (**ar
 ```js
 function normal(x) {
   return x * x;
-}
+};
 
 var arrow = (x) => {
   return x * x;

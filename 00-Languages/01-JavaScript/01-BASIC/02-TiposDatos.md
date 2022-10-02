@@ -162,7 +162,7 @@ false                                       //0
 
 - **Valor:** Los _datos primitivos_ son los que se pasan por valor `=` .
 
-Por ejemplo: En este caso estamos pasando variables por valor. Al comienzo **a** y **b** son distintas. Luego a se hace **“fotocopia”** de **b** y adquiere su valor. Si luego cambiamos el valor de **b**, el valor de **a** se seguirá manteniendo igual, ya que mantiene independencia:
+Por ejemplo: En este caso estamos pasando variables por valor. Al comienzo **a** y **b** son distintas. Luego **a** se hace **“fotocopia”** de **b** y adquiere su valor. Si luego cambiamos el valor de **b**, el valor de **a** se seguirá manteniendo igual, ya que mantiene independencia:
 
 ```js
 var a = 3;
@@ -180,14 +180,14 @@ a = 5;
 Por ejemplo: En este caso primero creamos un objeto, y luego definimos un nuevo objeto que es igual al primero. Cuando al primero le agregamos la propiedad Edad, esta se agregará automáticamente a la segunda:
 
 ```js
-var obj = {Nombre: "Alejo", Apellido: "Bengo"};
+var obj = {Nombre: "Alexis", Apellido: "Uriarte"};
 var newObj = obj;
 
 obj.Edad = 21;
-//obj = {Nombre: "Alejo", Apellido: "Bengo", Edad: 21}
+// obj = {Nombre: "Alexis", Apellido: "Uriarte", Edad: 21}
 
 <newObj>
-{Nombre: "Alejo", Apellido: "Bengo", Edad: 21};
+{Nombre: "Alexis", Apellido: "Uriarte", Edad: 21};
 ```
 
 > En ese caso hay un **“reflejo”** de los cambios que hagamos en cualquiera de las variables.
