@@ -6,15 +6,84 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
 
 ### **Comandos básicos**
 
-- `git init`: Se utiliza para iniciar nuestro repositorio.
-- `git add ArchivoEjemplo.js`: Crea el archivo pero no lo guarda de forma definitiva, lo almacena en (Staging Area).
-- `git commit -m "name_commit"`: Aquí se generan cambios de "Staging Area" y con ( -m "") se deja un mensaje que nos sea útil.
-- `git add .`: Agrega los archivos actualizados al repositorio, pero únicamente en la carpeta que te encuentras.
-- `git commit -m "Cambios name_commit"`: sirve para generar cambios sobre la versión antigua.
-- `git status`: Sirve para revisar si has modificado o guardado los cambios hechos.
-- `git log "archivo.txt"`: Sirve para ver el historial del archivo.
-- `git push`: Sirve para enviar cambios al repositorio remoto.
-- `git pull`: Sirve para recibir cambios de repositorio remoto a local.
+1. `git config [options]` <br/> 
+- Establece el nombre de usuario y la dirección de correo electrónico para los **commits**:
+  ```bash
+  git config --global user.name "Auriarte20"
+  git config --global user.email      "uriarte2001alexis@gmail.com"
+  ```
+
+2. `git init` <br/>
+- Inicializa el repositorio como repositorio git:
+  ```bash
+  git init
+  ```
+
+3. `git clone [url]` <br/> 
+- Clonamos nuestro repositorio de GitHub o GitLab:
+  ```bash
+  git clone http://github.com/mirepo/Auriarte20.git
+  ```
+
+4. `git status` <br/>
+- Sirve para revisar si has modificado o guardado los cambios hechos:
+  ```bash
+  git status
+  ```
+
+5. `git add [Filename(s)]` <br/>
+- Crea el archivo pero no lo guarda de forma definitiva, lo almacena en Staging Area:
+  ```bash
+  git add index.html style.css script.js
+  git add . #guarda todos los cambios locales
+  ```
+
+6. `git commit -m [mensaje]` <br/>
+- Registra los cambios en el repositorio de git guardando un mensaje de registro junto con una ID de compromiso:
+  ```bash
+  git commit -m "Fix bug"
+  git commit -a  #confirma todo el archivo sin mensaje
+  ```
+
+7. `git push [Options] [Variable] [Branch]` <br/> 
+- Sirve para enviar cambios al repositorio remoto:
+  ```bash
+  git push
+  git push -u origin main
+  ```
+
+8. `git pull [Variable] [Branch] o [url]` <br/> 
+- Sirve para recibir cambios del repositorio remoto a local:
+  ```bash
+  git pull origin main
+  git push https://github.com/user/repo
+  ```
+
+9. `git log`: <br/>
+- Muestra el registro de **commits** realizadas hasta ahora en la rama actual:
+  ```bash
+  git log
+  ```
+
+10. `git checkout [Branch]` <br/>
+- Pasar de una rama a otra rama:
+  ```bash
+  git checkout rama1
+  git checkout -b rama2 #crea una rama y nos movemod a ella
+  ```
+
+11. `git branch [Options] [Branch]` <br/>
+- Realiza operaciones sobre la rama especificada:
+  ```bash
+  git branch #ver ramas
+  git branch rama3 #crea una rama
+  git branch -m rama4 #renombramos la rama actual
+  git branch -d rama2 #eliminamos esa rama
+  ```
+
+12. `git merge [Branch]` <br/>
+
+13. `git show [Commit ID]` <br/>
 
 ### **Estados de los archivos en Git**
 

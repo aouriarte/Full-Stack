@@ -151,15 +151,14 @@ Se puede hacer lo mismo con margin (margen) */
 
 ### Unidades absolutas y relativas de medida
 
-Los `px`  (píxeles) son un tipo de unidad de longitud que le indica al navegador qué tamaño o cuánto espaciado asignarle a un elemento.
+Los `px` (píxeles) son un tipo de unidad de longitud que le indica al navegador qué tamaño o cuánto espaciado asignarle a un elemento.
 
-- Las unidades absolutas están relacionadas con unidades físicas de longitud. Por ejemplo: `in` y `mm` se refieren a pulgadas y milímetros. Las unidades de longitud absoluta *aproximan la medición real sobre una pantalla*, **pero existen cierta variación que depende de la resolución de la pantalla utilizada**. 
+- Las unidades absolutas están relacionadas con unidades físicas de longitud. Por ejemplo: `in` y `mm` se refieren a pulgadas y milímetros. Las unidades de longitud absoluta _aproximan la medición real sobre una pantalla_, **pero existen cierta variación que depende de la resolución de la pantalla utilizada**.
 
 - Las unidades relativas, como `em` o `rem` son relativas a otro valor de longitud.
-Por ejemplo `em` es para definir el tamaño de fuente de un elemento.  Si la utilizas para establecer la propiedad font-size, es relativa al font-size del elemento padre.
+  Por ejemplo `em` es para definir el tamaño de fuente de un elemento. Si la utilizas para establecer la propiedad font-size, es relativa al font-size del elemento padre.
 
 ## Orden de Selectores
-
 
 En línea
 Id
