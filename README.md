@@ -1,6 +1,6 @@
 # Full-Stack Developer
 
-> "Estamos no para solucionar problemas, sino para **_crear soluciones_**". -Dalto
+> "Estamos no para solucionar problemas, sino para **_crear soluciones_**".
 
 Consejos:
 
