@@ -7,5 +7,4 @@ Lenguajes que quiero aprender:
 - JavaScript
 - Python
 - TypeScript
-- Java
 - Más...
