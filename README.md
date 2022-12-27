@@ -9,3 +9,22 @@ Consejos:
 - **Pseudocódigo:** Aprender a describir la función del código o el algoritmo. Como el paso a paso, el algoritmo. Además ayuda a que sea más fácil escribir otro lenguajes de programación.
 
 - **Aplicación:** Más vale la aplicación que saber toda la teoría, porque es bastante. Realizar proyectos.
+
+## Estructura del repositorio
+
+```
+$FULL-STACK
+├── Languages
+|   ├── JavaScript
+|   ├── Python
+|   └── TypeScript
+├── Front-End
+|   ├── DOM
+|   ├── HTML
+|   └── CSS
+|
+├── Back-End
+└── GIT
+    ├── Git.md
+    └── GitHub.md
+```

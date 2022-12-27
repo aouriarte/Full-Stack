@@ -6,32 +6,37 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
 
 ### **Comandos básicos**
 
-1. `git config [options]` <br/> 
+1. `git config [options]` <br/>
+
 - Establece el nombre de usuario y la dirección de correo electrónico para los **commits**:
   ```bash
-  git config --global user.name "Auriarte20"
-  git config --global user.email      "uriarte2001alexis@gmail.com"
+  git config --global user.name "aouriarte"
+  git config --global user.email "uriarte2001alexis@gmail.com"
   ```
 
 2. `git init` <br/>
+
 - Inicializa el repositorio como repositorio git:
   ```bash
   git init
   ```
 
-3. `git clone [url]` <br/> 
+3. `git clone [url]` <br/>
+
 - Clonamos nuestro repositorio de GitHub o GitLab:
   ```bash
   git clone http://github.com/mirepo/Auriarte20.git
   ```
 
 4. `git status` <br/>
+
 - Sirve para revisar si has modificado o guardado los cambios hechos:
   ```bash
   git status
   ```
 
 5. `git add [Filename(s)]` <br/>
+
 - Crea el archivo pero no lo guarda de forma definitiva, lo almacena en Staging Area:
   ```bash
   git add index.html style.css script.js
@@ -39,20 +44,23 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
   ```
 
 6. `git commit -m [mensaje]` <br/>
+
 - Registra los cambios en el repositorio de git guardando un mensaje de registro junto con una ID de compromiso:
   ```bash
   git commit -m "Fix bug"
   git commit -a  #confirma todo el archivo sin mensaje
   ```
 
-7. `git push [Options] [Variable] [Branch]` <br/> 
+7. `git push [Options] [Variable] [Branch]` <br/>
+
 - Sirve para enviar cambios al repositorio remoto:
   ```bash
   git push
   git push -u origin main
   ```
 
-8. `git pull [Variable] [Branch] o [url]` <br/> 
+8. `git pull [Variable] [Branch] o [url]` <br/>
+
 - Sirve para recibir cambios del repositorio remoto a local:
   ```bash
   git pull origin main
@@ -60,12 +68,14 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
   ```
 
 9. `git log`: <br/>
+
 - Muestra el registro de **commits** realizadas hasta ahora en la rama actual:
   ```bash
   git log
   ```
 
 10. `git checkout [Branch]` <br/>
+
 - Pasar de una rama a otra rama:
   ```bash
   git checkout rama1
@@ -73,6 +83,7 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
   ```
 
 11. `git branch [Options] [Branch]` <br/>
+
 - Realiza operaciones sobre la rama especificada:
   ```bash
   git branch #ver ramas
