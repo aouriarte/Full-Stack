@@ -28,7 +28,7 @@ Es un _bundler_ que, como cualquier otro, recorrerá un archivo tomando sus impo
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Alejo Bengoechea",
+    "author": "aouriarte",
     "license": "ISC"
   }
   ```

@@ -123,3 +123,67 @@ Estos componentes tienen las siguientes características:
 
 ### Componentes de Clase
 
+Tienen las siguientes características:
+
+1. Los construimos con la palabra clave `class` y su nombre empieza con mayúscula.
+
+2. Siempre que hagamos componentes de clase haremos una extensión con `React.Component`.
+
+   ```jsx
+   class Example extends React.Component {}
+   ```
+
+3. En el cuerpo de la clase usamos un `render()` y dentro el `return`.
+
+   ```jsx
+   class Welcome extends React.Component {
+     render() {
+       return <h1>Hello, my name is Alexis Uriarte</h1>;
+     }
+   }
+   ```
+
+4. Para poder pasarle propiedades a nuestra clase lo haremos con `this`.
+
+   ```jsx
+   class Universidad extends React.Component {
+     render() {
+   	   return (
+   		   <h3>Hardvard, {this.props.asistencia}</h3>
+   		   <h3>Yale</h3>
+   		   <h3>Oxford</h3>
+       )
+     }
+   }
+   ```
+
+## ReactDOM.rendwer()
+
+El objetivo de React es representar HTML en una página web. Lo represente mediante una función llamada `ReactDOM.render()`.
+
+La función toma dos argumentos, código HTML (lo que vamos a insertar) y un elemento HTML (dónde lo insertaremos).
+El propósito de la función es mostrar el código HTML especificado dentro del elemento HTML especificado.
+
+¿Pero renderizar dónde?
+
+Hay otra carpeta en el directorio raíz de su proyecto React, llamada **"public"**. En esta carpeta, hay un `index.html` archivo.
+
+Notarás un solo `<div>` en el cuerpo de este archivo. Aquí es donde se representará nuestra aplicación React.
+
+Ejemplo:
+
+Mostraremos un párrafo dentro de un elemento con el `id` "root"
+
+```jsx
+ReactDOM.render(<p>Hola</p>, document.getElementById("root"));
+```
+
+El resultado se muestra en el `<div id="root">`:
+
+<body>
+  <div id="root"></div>
+</body>
+
+Lo que veríamos en pantalla sería:
+
+![pantalla](./Images/reactDOM.png)
