@@ -22,9 +22,19 @@ $FULL-STACK
 |   ├── DOM
 |   ├── HTML
 |   └── CSS
+|   └── REACT
 |
 ├── Back-End
 └── GIT
     ├── Git.md
     └── GitHub.md
 ```
+
+## Learning Stack
+
+- Lenguajes: Go
+- FrontEnd: React Native, Vue.js, Next.js, Svelte\*.
+- Estilos: TailwindCSS, Styled components, MaterialUI, Figma y Sass.
+- Backend: Django, NestJS\*.
+- Otros: Docker, Astro, GraphQL.
+- DataBase: MongoDB, Firebase, MySQL
