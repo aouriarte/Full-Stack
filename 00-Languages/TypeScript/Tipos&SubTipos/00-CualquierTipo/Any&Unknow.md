@@ -1,110 +1,10 @@
-# Tipos y subtipos
-
-Todos los tipos en TypeScript son subtipos de un único tipo principal denominado tipo `any`.
-
-![TiposTypescript](./Images/Tipos.png)
-
-## Tipos primitivos
-
-### **string**
-
-También usa comillas dobles (`"`) o comillas simples (`'`).
-
-```ts
-let s: string;
-let empty = "";
-let abc = "abc";
-```
-
-En TypeScript, también podemos usar los Template String o Cadena de platilla `${expr}`.
-
-```ts
-let firstName: string = "Mateo";
-let sentence: string = `My name is ${firstName}. I am new to TypeScript.`;
-console.log(sentence); // My name is Mateo. I am new to TypeScript.
-```
-
-### **number** y **BigInteger**
-
-Son valores de número de punto flotante o BigIntegers. Estos números de punto flotante obtienen el tipo `number`, mientras que los valores BigIntegers obtiene el tipo `bigint`. Además de los literales hexadecimales y decimales, TypeScript también admite los literales binarios y octales introducidos en ECMAScript 2015.
-
-```ts
-let x: number;
-let y = 0;
-let z: number = 123.456;
-let big: bigint = 100n;
-```
-
-### **boolean**
-
-Igual que JS.
-
-```ts
-let flag: boolean;
-let yes = true;
-let no = false;
-```
-
-### **null** y **undefined**
-
-Son subtipos de todos los demás tipos. No es posible hacer referencia explícita a estos tipos. Por ello se hace referencia mediante los literales `undefined` y `null`.
-
-```ts
-let vacio: null = null;
-let indefinido: undefined = undefined;
-```
-
-### **void**
-
-El tipo `void` existe únicamente para indicar la ausencia de un valor, como en una función sin ningún valor devuelto.
-
-### **enum**
-
-Ofrecen una manera sencilla de trabajar con conjuntos de **constantes** relacionadas. Las enumeraciones se tratan como tipos de datos y se pueden usar a fin de crear conjuntos de constantes para su uso con variables y propiedades. Permiten especificar una lista de opciones disponibles.
-
-De forma predeterminada, los valores enum comienzan con un valor de 0.
-
-```ts
-enum DiasDeSemana {
-  Lunes, // 0
-  Martes, // 1
-  Miercoles, // 2
-  Jueves, // 3
-  Viernes, // 4
-  Sabado, // 5
-  Domingo, // 6
-}
-
-let dia: DiasDeSemana = DiasDeSemana.Jueves;
-console.log(dia); // 3
-```
-
-> pero podemos cambiar el valor en el que empiecen:
-
-```ts
-enum DiasDeSemana {
-  Lunes = 1, // 1
-  Martes, // 2
-  Miercoles, // 3
-  Jueves, // 4
-  Viernes, // 5
-  Sabado, // 6
-  Domingo, // 7
-}
-
-let dia: DiasDeSemana = 3;
-console.log(DiasDeSemana[dia]); // Miercoles
-```
-
----
-
-## Tipos any y unknown
+# Tipos any y unknown
 
 Cuando trabajamos con valores desconocidos en el momento de desarrollar podemos usar los tipos `any` y `unknown`, así como usar la aserción y las restricciones de tipos.
 
-### **any**
+## **any**
 
-Cualquier tipo puede representar cualquier valor de JavaScript sin restricciones. Permitirá volver a asignar distintos tipos de valores.
+**Cualquier tipo** puede representar cualquier valor de JavaScript sin restricciones. Permitirá volver a asignar distintos tipos de valores.
 
 ```ts
 let randomValue: any = 10;
@@ -129,7 +29,7 @@ randomValue.toUpperCase(); // Returns "randomValue is not a function" error
 > - **Tiempo de compilación**: Cuando aún no se ejecuta el run.
 > - **Tiempo de ejecución**: Cuando se ejecuta el run.
 
-### **unknown**
+## **unknown**
 
 El tipo `unknown` es similar al tipo `any` en que cualquier valor se puede asignar al tipo `unknown`. Sin embargo, no se puede acceder a las propiedades de un tipo `unknown`; tampoco se pueden llamar ni construir.
 

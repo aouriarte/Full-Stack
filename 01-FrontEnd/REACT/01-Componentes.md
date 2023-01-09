@@ -157,7 +157,7 @@ Tienen las siguientes características:
    }
    ```
 
-## ReactDOM.rendwer()
+## ReactDOM.render()
 
 El objetivo de React es representar HTML en una página web. Lo represente mediante una función llamada `ReactDOM.render()`.
 

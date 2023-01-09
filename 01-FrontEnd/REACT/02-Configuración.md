@@ -1,4 +1,4 @@
-# Webpack/React/Babe
+# Webpack/React/Babel
 
 Muchos de nuestros archivos dependerán de otros, por lo que tendremos que importar y exportar componentes. Es por esto que tendremos que instalar todas las dependencias necesarias para nuestro proyecto.
 
