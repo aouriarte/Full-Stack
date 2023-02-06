@@ -1,4 +1,4 @@
-# REACT
+# REACTJs
 
 Es una librería de [JavaScript](../../00-Languages/JavaScript/about.md) que es **eficiente**, **declarativa** y **flexible**,
 y sirve para construir interfaces de usuario (UI). Esta librería fue creada por el equipo de Facebook e Instagram. Fue liberada y ahora es un proyecto [opne source](https://github.com/facebook/react)
