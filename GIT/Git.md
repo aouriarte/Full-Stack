@@ -6,9 +6,8 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
 
 ### **Comandos básicos**
 
-1. `git config [options]`
-
-- Establece el nombre de usuario y la dirección de correo electrónico para los **commits**:
+- `git config [options]`</br>
+  Establece el nombre de usuario y la dirección de correo electrónico para los **commits**:
 
   ```bash
   git config --global user.name "aouriarte"
