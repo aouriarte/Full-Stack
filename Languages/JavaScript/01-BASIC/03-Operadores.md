@@ -207,8 +207,6 @@ if (!(1 === 1)) {
 }
 ```
 
----
-
 ## Precedencia y Asociatividad de Operadores
 
 - **Precedencia:**
