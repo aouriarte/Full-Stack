@@ -43,8 +43,6 @@ switch (expresión) {
 
 > `break` Es una de las declaraciones que permite que se sigan evaluando los demás casos si es que el caso donde está no es verdadeo (el valor).
 
----
-
 ## Valores Falsos
 
 Se evalúan los siguiente como **falso**: `false`, `undefined`, `null`, `0`, `NaN` y `('')` cadena vacía.
