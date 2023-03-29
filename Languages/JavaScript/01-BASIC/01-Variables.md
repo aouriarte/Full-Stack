@@ -1,9 +1,6 @@
 # Variables
 
 Las **variables** se usan como recipientes, es la forma de almacenar algo para usar más tarde.
-
-## Declarar Variables
-
 Para declarar una variable se usa una **keyword**, seguida de un espacio, el **identificador** y le asignamos un valor con `=` .
 
 - **Keywords:**
