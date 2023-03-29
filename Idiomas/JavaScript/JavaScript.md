@@ -55,13 +55,13 @@ W: while, with
 
 Es como la gramática de la programación.
 
-### Usa *_snake_case_* en:
+### Usa **snake_case** en:
 
 - Nombre de archivos:
 
       mi_archivo_javascript.js;
 
-### Usa *_UPPER_CASE_* en:
+### Usa **UPPER_CASE** en:
 
 - Constantes:
 
@@ -70,7 +70,7 @@ const UNA_CONSTANTE = "Soy una constante";
 PI = 3.141592653589793;
 ```
 
-### Usa *_UpperCamelCase_* en:
+### Usa **UpperCamelCase** en:
 
 - Clases:
 
@@ -87,7 +87,7 @@ class SerHumano {
 }
 ```
 
-### Usa *_lowerCamelCase_* en:
+### Usa **lowerCamelCase** en:
 
 - Objetos:
 
@@ -128,7 +128,7 @@ Muestra información sobre la página web que se está ejecutando en ese momento
 
 ![VerEnGoogle](consola.png)
 
-La función `console.log()` muestra la información proporcionada en la consola de Javascript:
+Muestra la información proporcionada en la consola de Javascript:
 
 ```js
 console.log("Hola, mundo!");
