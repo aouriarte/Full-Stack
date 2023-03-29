@@ -30,20 +30,3 @@ b = 10;
 const name = "Alexis";
 name = "Juan"; // la sintaxis dará 'error'
 ```
-
-## Typeof
-
-El operador es utilizada para obtener el tipo de dato que tiene una variable. Ejemplo:
-
-```js
-var saludo = "Hola";
-let edad = 20;
-var objeto = {};
-let menorDeEdad = false;
-
-typeof saludo; // string
-typeof edad; // number
-typeof objeto; // object
-typeof menorDeEdad; // boolean
-typeof mascota; // undefined, porque no fue creado
-```
