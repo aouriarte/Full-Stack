@@ -107,6 +107,23 @@ Los veremos más adelante por separado, pero son los siguientes:
 
 ## JavaScript Avanzado
 
+### Typeof
+
+Este operador es utilizado para obtener el tipo de dato que tiene una variable:
+
+```js
+var saludo = "Hola";
+let edad = 20;
+var objeto = {};
+let menorDeEdad = false;
+
+typeof saludo; // string
+typeof edad; // number
+typeof objeto; // object
+typeof menorDeEdad; // boolean
+typeof mascota; // undefined, porque no fue creado
+```
+
 ### Coerción de Datos
 
 Permite tomar un dato como otro para desarrollarlo o ejecutarlo:
