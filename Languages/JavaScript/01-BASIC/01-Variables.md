@@ -34,8 +34,6 @@ const name = "Alexis";
 name = "Juan"; // la sintaxis dará 'error'
 ```
 
----
-
 ## Typeof
 
 El operador es utilizada para obtener el tipo de dato que tiene una variable. Ejemplo:
