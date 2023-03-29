@@ -94,8 +94,6 @@ Es un valor que representa _Not-A-Number_ (No es un número).
 
 > Hay más pero los veremos luego, ya que son más complejos.
 
----
-
 ## Compuestos
 
 Se accede a la referencia del valor.
@@ -107,9 +105,7 @@ Los veremos más adelante por separado, pero son los siguientes:
 - `Class{}`
 - etc.
 
----
-
-## JavaScript Avanzado:
+## JavaScript Avanzado
 
 ### Coerción de Datos
 
@@ -155,8 +151,6 @@ parseInt("09")                              //9
 true                                        //1
 false                                       //0
 ```
-
----
 
 ### Valor y Referencia
 
