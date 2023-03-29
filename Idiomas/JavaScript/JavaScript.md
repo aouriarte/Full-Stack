@@ -55,13 +55,13 @@ W: while, with
 
 Es como la gramática de la programación.
 
-### Usa **_snake_case_** en:
+### Usa *_snake_case_* en:
 
 - Nombre de archivos:
 
       mi_archivo_javascript.js;
 
-### Usa **_UPPER_CASE_** en:
+### Usa *_UPPER_CASE_* en:
 
 - Constantes:
 
@@ -70,7 +70,7 @@ const UNA_CONSTANTE = "Soy una constante";
 PI = 3.141592653589793;
 ```
 
-### Usa **_UpperCamelCase_** en:
+### Usa *_UpperCamelCase_* en:
 
 - Clases:
 
@@ -87,7 +87,7 @@ class SerHumano {
 }
 ```
 
-### Usa **_lowerCamelCase_** en:
+### Usa *_lowerCamelCase_* en:
 
 - Objetos:
 
