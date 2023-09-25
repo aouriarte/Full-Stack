@@ -10,13 +10,12 @@
 $FULL-STACK
 ├── Languages
 |   ├── JavaScript
-|   ├── Python
 |   └── TypeScript
 |
 ├── Front-End
 |   ├── DOM
 |   ├── HTML
-|   └── CSS
+|   |── CSS
 |   └── REACT
 |
 ├── Back-End
@@ -30,7 +29,7 @@ $FULL-STACK
 
 ### Ruta de aprendizaje
 
-- Lenguajes: Go
+- Lenguajes: Go, Python.
 - FrontEnd: React Native, VueJs, NextJs, Svelte\*.
 - Estilos: TailwindCSS, MaterialUI, Figma y Sass.
 - Backend: Django, NestJS\*.
