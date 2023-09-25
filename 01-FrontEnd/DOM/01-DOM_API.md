@@ -1,11 +1,11 @@
 # DOM API
 
-El _browser_ nos da una **_API_** para interactuar con el **_DOM_** usando JavaScript. Esta **_API_** nos permite:
+El _browser_ nos da una _API_ para interactuar con el DOM usando JavaScript. Esta _API_ nos permite:
 
 - Inspeccionar los elementos y la estructura del documento.
 - Modificar la estructura, agregar o eliminar elementos html o atributos.
 - Modificar el contenido del documento.
-- Modificar los estilos (css).
+- Modificar los estilos (CSS).
 - Agregar, eliminar o reaccionar eventos.
 
 El estilo que tiene un archivo _html_, por convención, se lo hace en _css_. Sin embargo, desde JavaScript también podemos realizar cambios en el estilo de nuestra página. A esto se lo conoce como **_cambios dinámicos_**, y están precedidos por un _evento_.

@@ -1,6 +1,6 @@
 # Eventos
 
-Un **_evento_** es una señal de que algo sucedió. Todos los nodos del DOM pueden generar estas señales.
+Un evento es una señal de que algo sucedió. Todos los nodos del DOM pueden generar estas señales.
 
 El **_Event Listener_** es el encargado de escuchar esas señales.
 
@@ -36,8 +36,7 @@ El **_Event Listener_** es el encargado de escuchar esas señales.
     </body>
 </html>
 
-//ESTO HARÁ QUE CUANDO HAGAMOS CLICK EN ESA PRIMERA DIV
-//APARECERÁ UNA ALERTA.
+//ESTO HARÁ QUE CUANDO HAGAMOS CLICK EN ESA PRIMERA DIV APARECERÁ UNA ALERTA.
 ```
 
 ```js
@@ -50,10 +49,10 @@ El **_Event Listener_** es el encargado de escuchar esas señales.
 	    	height: 200px;
 	    }
 	    .align {
-	    display: flex;
-	    align.items: center;
-	    font-size: large;
-	    font-weight: bold;
+	        display: flex;
+	        align.items: center;
+	        font-size: large;
+	        font-weight: bold;
 	    }
 	    </style>
     </head>
@@ -64,10 +63,10 @@ El **_Event Listener_** es el encargado de escuchar esas señales.
 
         <script>
 	    var allDivs = document.querySelectorAll("div");
-	    for(let i = 0; i < allDivs.length; i++) {
-		allDivs.addEventListener("click", function(e) {
-			e.target.classList.add("align")
-	    })
+	    for(let i = 0; i < allDivs.length; i++){
+		  allDivs.addEventListener("click", function(e){
+			  e.target.classList.add("align")}
+			)
         }
         </script>
     </body>
