@@ -1,41 +1,10 @@
-# Sintaxis
-
-```html
-<!-- Elemento o Caja -->
-<etiqueta atributo="valor"></etiqueta>
-```
-
-## Elementos Básicos
-
-Definimos elementos (etiquetas o tags) con brackets `<>` y un nombre. Los tags se abren y cierran `</>` .
-
-```html
-<tag> ... </tag>
-```
-
-## Atributos y Valores
-
-En su mayoría, los atributos trabajan en pares de _¨nombre-valor"_
-
-Algunas características importantes:
-
-- Un `atributo` debe tener siempre un espacio entre el nombre de la `etiqueta` .
-- El nombre del `atributo` seguido por el signo `=` .
-- Comillas dobles o simples para encerrar el `"valor"` .
-
-```html
-<button tamaño="pequeño" color="azul"></button>
-```
-
-> En realidad se escribe en inglés.
-
 # Etiquetas
 
 ## de cabeza:
 
 ```html
 <head>
-  <!---------------------------------- Título -------------------------------->
+  <!---------------------------------- Título ------------------------------->
   <title>Título</title>
 
   <!-------------------------------- Metadatos ------------------------------>
@@ -56,7 +25,7 @@ Algunas características importantes:
   <!-- Nos permite indicar cómo se verá un proyecto web en los dispositivos móviles -->
 
   <!--------------------------------- Script --------------------------------->
-  <script src="javascript.js"></script>
+  <script src="script.js"></script>
   <!-- Enlaza la parte interactiva para nuestra página -->
 
   <noscript>El navegador no soporta JavaScript</noscript>
@@ -76,7 +45,7 @@ Algunas características importantes:
 ## de contenido/contenedor:
 
 ```html
-<!--------------------------------- Encabezados -------------------------------->
+<!------------------------------- Encabezados ------------------------------>
 <h1>Encabezado</h1>
 <h2>...</h2>
 <h3>...</h3>
@@ -84,10 +53,10 @@ Algunas características importantes:
 <h5>...</h5>
 <h6>...</h6>
 
-<!------------------------------------- Div ----------------------------------->
-<div><!-- content --></div>
+<!----------------------------------- Div ---------------------------------->
+<div><!-- contenido --></div>
 
-<!------------------------------------- Texto --------------------------------->
+<!----------------------------------- Texto -------------------------------->
 <p>párrafo</p>
 
 <span>texto</span>
@@ -104,7 +73,7 @@ Algunas características importantes:
 
 ```html
 <ul>
-  <li>Listas Desordenadas</li>
+  <li>Listas desordenadas</li>
 </ul>
 
 <ol>
@@ -133,7 +102,7 @@ Algunas características importantes:
 
 ## Vacías:
 
-Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos abreviar su escritura poniendo un "`/`" antes del bracket final.
+Algunas etiquetas de HTML no necesitan tener nada adentro, por lo tanto podemos abreviar su escritura poniendo un "`/`" antes del bracket final.
 
 ```html
 <img src="https://imagen.com/img.jpg" />
@@ -145,7 +114,7 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 ## Multimedia:
 
 ```html
-<!----------------------------------- Imágenes ---------------------------------->
+<!--------------------------------- Imágenes ---------------------------------->
 <img
   src="enlace de imagen.png u otro formato"
   widht="ancho de megapíxeles"
@@ -154,10 +123,10 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
   title="aparece sobre la imagen al poner el cursor"
 />
 
-<!---------------------------- Videos ------------------------------------------->
+<!------------------------------- Videos ------------------------------------->
 <video src="enlace del video.mp4 u otro formato" controls="necesario"></video>
 
-<!---------------------------------------- Audio -------------------------------->
+<!----------------------------------- Audio ---------------------------------->
 <audio src="enlace del audio" controls="necesario"></audio>
 ```
 
@@ -204,7 +173,7 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
 ```
 
 ```html
-<!----------------------------- botones radio ---------------------------->
+<!---------------------------- botones radio ---------------------------->
 <!-- Puedes usarlo para hacer preguntas en las que el usuario solo debe dar una respuesta a partir de múltiples opciones -->
 
 <form action="URL_donde_se guardan_los_datos">
@@ -217,7 +186,6 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
       type="radio"
       name="masculino-femenino"
     />
-
     masculino
   </label>
 
@@ -230,7 +198,6 @@ Algunas etiquetas de html no necesitan tener nada adentro, por lo tanto podemos 
     />
     <!-- el atributo 'value' reporta el valor de los input al servidor de datos -->
     <!-- Cuando el usuario envía el formulario con la opción masculino seleccionada, los datos del formulario incluirán la línea: masculino-femenino=femenino. Esto proviene de los atributos name y value del input "femenino" -->
-
     femenino
   </label>
 </form>

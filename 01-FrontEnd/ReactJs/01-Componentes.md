@@ -4,7 +4,7 @@ Cada componente cumplirá una única función, recibirá una serie de propiedade
 
 ![componente](./Images/componente.png)
 
-> Las **propiedades** que recibe un componente pueden o no ser únicas para este.
+> Las **propiedades** que recibe un componente pueden ser o no únicas para este.
 
 ![youtube](./Images/youtube.png)
 
@@ -29,10 +29,10 @@ Estos componentes tienen las siguientes características:
 2. Devuelve con `return` y entre `()` el contenido html.
 
    ```jsx
-   function Nombre(props) {
+   function Name(props) {
      return (
        <div>
-         <h2>Alexis {props.apellido}</h2>
+         <h2>Alexis {props.lastName}</h2>
        </div>
      );
    }
@@ -76,7 +76,7 @@ Estos componentes tienen las siguientes características:
 6. A continuación vemos como invocar un componente dentro de otro:
 
    ```jsx
-   function Nombre() {
+   function Name() {
      return (
        <div>
          <h1>Alexis</h1> // PRIMER COMPONENTE
@@ -85,7 +85,7 @@ Estos componentes tienen las siguientes características:
      );
    }
 
-   function Apellido() {
+   function LastName() {
      return <h1>Uriarte</h1>; // SEGUNDO COMPONENTE
    }
    ```
@@ -105,18 +105,18 @@ Estos componentes tienen las siguientes características:
    > Pero cuando llamamos a un componente dentro de otro, en ese llamado tendremos que especificar la propiedad:
 
    ```jsx
-   function Nombre() {
+   function Name() {
      return (
        <div>
          <h2>Alexis</h2>
-         <Apellido apellido="Uriarte" />
-         <Apellido apellido="Vergara" />
+         <LastName lastName="Uriarte" />
+         <LastName lastName="Vergara" />
        </div>
      );
    }
 
-   function Apellido(props) {
-     return <h2>{props.apellido}</h2>;
+   function LastName(props) {
+     return <h2>{props.lastName}</h2>;
    }
    //Alexis Uriarte Vergara
    ```
@@ -146,10 +146,10 @@ Tienen las siguientes características:
 4. Para poder pasarle propiedades a nuestra clase lo haremos con `this`.
 
    ```jsx
-   class Universidad extends React.Component {
+   class University extends React.Component {
      render() {
    	   return (
-   		   <h3>Hardvard, {this.props.asistencia}</h3>
+   		   <h3>Hardvard, {this.props.asssitance}</h3>
    		   <h3>Yale</h3>
    		   <h3>Oxford</h3>
        )
