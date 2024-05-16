@@ -79,7 +79,7 @@ Es un sistema de control de versiones. Quiere decir que registra o guarda cambio
 
   ```bash
   git checkout rama1
-  git checkout -b rama2 #crea una rama y nos movemod a ella
+  git checkout -b rama2 #crea una rama y nos mueve a ella
   ```
 
 - `git branch [Options] [Branch]` </br>
